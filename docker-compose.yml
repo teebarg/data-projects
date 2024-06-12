@@ -1,0 +1,10 @@
+services:
+  jupyter:
+    build: .
+    container_name: data_projects
+    ports:
+      - "8886:8888"
+    volumes:
+      - ./notebooks:/home/jovyan/work
+    environment:
+      JUPYTER_ENABLE_LAB: "yes"
