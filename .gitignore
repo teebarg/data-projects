@@ -17,3 +17,5 @@ venv/
 
 notebooks/output
 input.html
+
+.DS_Store

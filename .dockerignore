@@ -7,3 +7,5 @@
 
 # Data files (optional)
 data/
+
+.DS_Store
