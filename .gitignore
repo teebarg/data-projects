@@ -19,3 +19,5 @@ notebooks/output
 input.html
 
 .DS_Store
+firebase-credentials.json
+shopit.json
